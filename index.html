@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <title>Abnomral Reality</title>
+       <meta charset="utf-8"/>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style/bootstrap-button.css" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/stylesheet.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+        <script src="script/scroll.js"></script>
+    </head> 
+    <body>
+     <div id="main-nav" class="nav-inner">
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Planning</a></li>
+            <li><a href="#">Production</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#">Information</a></li>
+        </ul>
+      </div>
+      <div class="image">
+         <div class="container-fluid">
+          <div class="image-content-inner row-fluid">
+               <div class="centering text-center">
+                <h1>Abnormal Reality</h1>
+                <p>Digital Media</p>
+                <a href="#gallery"><div class="arrow bounce"></div></a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="main"></div>
+      <section class="content-title">]
+      <div class="col-md-2"></div>
+      <div class="col-md-10"></div>
+      <div class="col-md-2"></div>
+      </section>
+       <section class="content" id="gallery">
+        <div id="tiles" class="tile-content">
+            <div class="col-md-3 gallery">
+                
+            </div>
+            <div class="col-md-3 gallery">
+                
+            </div>
+            <div class="col-md-3 gallery">
+                
+            </div>
+            <div class="col-md-3 gallery">
+                
+            </div>
+        </div>
+      </section>
+    </body>
+<script>
+$('#main-nav').hide();
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 300)
+     {
+        $('#main-nav').fadeIn();
+     }
+    else
+     {
+      $('#main-nav').fadeOut();
+     }
+ });
+</script>
+</html>
